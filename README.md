@@ -1,4 +1,4 @@
-#  Python-Internship-2026 | DecodeLabs Project 1
+#  Python-Internship-2026 | DecodeLabs 
 
 **Intern:** Putti Reddy Hemasree | **Batch:** 2026  
 **Role:** Junior Python Developer @ DecodeLabs
