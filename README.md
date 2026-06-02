@@ -5,7 +5,7 @@
 
 ## Project 1: To-Do List App
 
-### **Goal as per PDF**
+### **Goal**
 Build a program where users can add tasks to a list and view them using pure Python logic.
 
 ### **Key Skills Demonstrated**
@@ -20,7 +20,7 @@ Build a program where users can add tasks to a list and view them using pure Pyt
 
 ### **How to Run**
 ```bash
-python todo.py
+todo.py
 ```
 ### **Sample Output**
 ```
@@ -54,3 +54,36 @@ Enter your choice: 3
 Exiting program
 ```
 ### **Status:** completed
+-----------------
+## ** Project 2: Expense Tracker**
+
+### **Goal**
+Build a program where users can enter expense amounts and the program adds them up to display the Total Spent using pure Python logic.
+
+### **Key Skills Demonstrated**
+- **Data Accumulation**: Storing and updating a running total using an accumulator variable
+- **Math Operations**: Using `total = total + new_expense` for continuous addition
+- **Loops**: `while True` loop for continuous data entry until user types 'done'
+- **Error Handling**: `try-except` block to handle invalid non-numeric inputs
+
+### **Features**
+1. **Add Expense** → Takes numeric input and adds to total
+2. **Input Validation** → Rejects negative numbers and non-numeric text
+3. **Running Total** → Displays updated total after each entry
+4. **Exit** → Type `done` to break loop and show final total
+
+### **How to Run**
+```bash
+tracker.py
+```
+### **Sample Output**
+```
+Enter expense amount: 100
+Added: 100.0
+Enter expense amount: 50
+Added: 50.0
+Enter expense amount: done
+TOTAL SPENT: 150.0
+```
+### **Status:** completed
+-------------
