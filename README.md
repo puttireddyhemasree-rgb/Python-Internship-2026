@@ -55,7 +55,7 @@ Exiting program
 ```
 ### **Status:** completed
 -----------------
-## ** Project 2: Expense Tracker**
+## **Project 2: Expense Tracker**
 
 ### **Goal**
 Build a program where users can enter expense amounts and the program adds them up to display the Total Spent using pure Python logic.
